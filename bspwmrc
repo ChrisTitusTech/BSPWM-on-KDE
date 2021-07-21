@@ -4,13 +4,13 @@ sxhkd &
 
 bspc monitor -d I II III IV V VI 
 
-bspc config border_width         2
+bspc config border_width         0
 bspc config window_gap           0
 
 bspc config split_ratio          0.52
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
-bspc config bottom_padding 48
+bspc config bottom_padding 46
 
 #bspc rule -a Gimp desktop='^8' state=floating follow=on
 #bspc rule -a Chromium desktop='^2'
